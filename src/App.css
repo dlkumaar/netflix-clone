@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components {
+  .nav-background {
+    @apply ;
+  }
+} */
+
+@layer utilities {
+	.h-448 {
+		height: 448px;
+	}
+
+	.bg-imaginary {
+		background-image: linear-gradient(
+			180deg,
+			transparent,
+			rgba(37, 37, 37, 0.61),
+			#111
+		);
+	}
+
+	.top-custom-cross {
+		top: 20%;
+	}
+}
