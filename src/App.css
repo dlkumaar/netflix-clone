@@ -25,4 +25,18 @@
 	.top-custom-cross {
 		top: 20%;
 	}
+
+	.bg-login {
+		background-image: linear-gradient(
+				180deg,
+				transparent,
+				rgba(37, 37, 37, 0.61),
+				#111
+			),
+			url('./assets/bg-netflix-login.jpg');
+	}
+
+	.bg-email {
+		background-color: #9ca3af;
+	}
 }
