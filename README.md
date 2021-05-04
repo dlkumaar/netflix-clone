@@ -2,7 +2,15 @@
 
 ## Netflix Clone App
 
-This project is a simplified clone from Netflix, build using React, Redux and Tailwind Css. It uses [The Movie Database API](https://www.themoviedb.org/documentation/api) to search for movies and display details using Axios. The app is hosted on Firebase Hosting.
+This project is a simplified clone from Netflix. It uses [The Movie Database API](https://www.themoviedb.org/documentation/api) to search for movies and display details using Axios. The app is hosted on Firebase Hosting.
+
+### Tools used
+- React
+- Redux
+- Tailwind CSS
+- Icons from [HeroIcons](https://heroicons.com/)
+- Firebase Hosting and Authentication
+- API from The Movie Database
 
 ### Running project locally
 
@@ -14,7 +22,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 `Get API key from [TMDB](https://www.themoviedb.org/documentation/api)`
 
-`Create .env.local file in root project and add: REACT_APP_API_KEY=YOUR_API_KEY_HERE`
+### Create `.env.local` file in root project and add: 
+```
+- REACT_APP_API_KEY=YOUR_API_KEY_HERE
+- REACT_APP_FIREBASE_API_KEY= firebaseConfig.apiKey
+- REACT_APP_FIREBASE_AUTH_DOMAIN=firebaseConfig.authDomain
+- REACT_APP_FIREBASE_PROJECT_ID=firebaseConfig.projectId
+- REACT_APP_FIREBASE_STORAGE_BUCKET=firebaseConfig.storageBucket
+- REACT_APP_FIREBASE_MESSAGING_SENDER_ID=firebaseConfig.messagingSenderId
+- REACT_APP_FIREBASE_APP_ID=firebaseConfig.appId
+```
+
 
 ### Available Scripts
 
