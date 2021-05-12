@@ -4,6 +4,10 @@
 
 This project is a simplified clone from Netflix. It uses [The Movie Database API](https://www.themoviedb.org/documentation/api) to search for movies and display details using Axios. The app is hosted on Firebase Hosting.
 
+Username: `test@gmail.com`
+
+Password: `abc123`
+
 ### Tools used
 - React
 - Redux
